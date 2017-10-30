@@ -10,12 +10,10 @@ Provide the following functionality to
     - Browse categories of events
     - Advanced search (by category, date, price, location, etc.)
     - View details about an event (information, location, date, price and availability of tickets)
---In addition to the previous functionality, registered users can:
-    - Purchase tickets
-    - Manage their profile
---Authenticated administrators should be able to:
-    - Create / edit / delete events
-    - Manage available tickets
+    - Purchase tickets ( only for registered users )
+    - Manage their profile ( only for registered users )
+    - Create / edit / delete events ( only for admins )
+    - Manage available tickets ( only for admins )
     
 Ticket count is updated live, to avoid conflicts. When purchasing a ticket, a user registration is required, but product basket is preserved.
 Create a Web UI prototype for the Online Ticket Store system.
